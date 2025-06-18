@@ -1,2 +1,2 @@
 # video lesson
-https://maleficiumt.github.io/video-lesson/
+https://video-lesson-mu.vercel.app/
