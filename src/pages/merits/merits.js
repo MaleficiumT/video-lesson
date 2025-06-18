@@ -1,0 +1,1 @@
+import './merits.css'
