@@ -1,1 +1,20 @@
 @import "../../global.css";
+
+.table-about {
+	border: 1px solid #9abedf;
+	max-width: 600px;
+}
+
+.table-about__thead-row {
+	background-color: #5398d6;
+	color: white;
+}
+
+.table-about__tbody-row:nth-of-type(2n + 1) {
+	background-color: #dceaf6;
+}
+
+.table-about td {
+	padding-left: 0.5rem;
+}
+

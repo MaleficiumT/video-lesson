@@ -1,1 +1,11 @@
 @import "../../global.css";
+
+.studios-images {
+	display: flex;
+	justify-content: center;
+}
+
+.studios-title {
+	text-align: center;
+	font-weight: normal;
+}

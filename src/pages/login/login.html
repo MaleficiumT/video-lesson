@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Видеоуроки</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
 </head>
-
 <body>
-	
+
 	<header class="header">
 		<div class="container">
 			<div class="header__wrapper">
@@ -31,24 +29,50 @@
 				</div> <!-- .header__line -->
 
 				<nav class="header__nav">
-					<a href="/" class="header__nav-link header__nav-link_active">Главное</a>
+					<a href="/" class="header__nav-link">Главное</a>
 					<a href="/src/pages/about/about.html" class="header__nav-link">О нас</a>
 					<a href="/src/pages/services/services.html" class="header__nav-link">Услуги</a>
 					<a href="/src/pages/merits/merits.html" class="header__nav-link">Наши заслуги</a>
 					<a href="/src/pages/studios/studios.html" class="header__nav-link">Наши студии</a>
-					<a href="/src/pages/login/login.html" class="header__nav-link">Войти</a>
+					<a href="/src/pages/login/login.html" class="header__nav-link header__nav-link_active">Войти</a>
 				</nav>
 
 			</div> <!-- .header__wrapper -->
 		</div> <!-- .container -->
 	</header> <!-- .header -->
 
-	<main class="main">
+	<main>
 		<div class="container">
-			<div class="main__wrapper">
-				<img src="/advert-main.jpg" alt="">
-			</div>
-		</div> <!-- .container -->
+			<table>
+				<tr>
+					<td>Вход</td>
+				</tr>
+				<tr>
+					<td><i>Логин:</i></td>
+					<td>
+						<input type="text" placeholder="Логин">
+					</td>
+				</tr>
+				<tr>
+					<td><i>Пароль:</i></td>
+					<td>
+						<input type="password" placeholder="Пароль">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>
+							<a href="">Войти</a>
+						</strong>
+					</td>
+					<td>
+						<strong>
+							<a href="">Зарегистрироваться</a>
+						</strong>
+					</td>
+				</tr>
+			</table>
+		</div>
 	</main>
 
 	<footer class="footer">
@@ -68,8 +92,7 @@
 			</div> <!-- .footer__wrapper -->
 		</div> <!-- .container -->
 	</footer>
-
-	<script type="module" src="./src/index.js"></script>
+	
+	<script type="module" src="./login.js"></script>
 </body>
-
 </html>

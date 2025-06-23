@@ -1,2 +1,18 @@
 @import "../../global.css";
 
+.table-merits {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table-merits td {
+	border: 1px solid black;
+}
+
+.table-merits__text {
+	text-align: center;
+}
+
+.table-merits__img {
+	margin: 0 auto;
+}

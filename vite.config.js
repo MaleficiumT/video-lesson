@@ -9,7 +9,8 @@ export default defineConfig({
         about: resolve(__dirname, 'src/pages/about/about.html'),
         services: resolve(__dirname, 'src/pages/services/services.html'),
 				merits: resolve(__dirname, 'src/pages/merits/merits.html'),
-				studios: resolve(__dirname, 'src/pages/studios/studios.html')
+				studios: resolve(__dirname, 'src/pages/studios/studios.html'),
+        login: resolve(__dirname, 'src/pages/login/login.html')
         // добавляй другие страницы сюда
       }
     }
